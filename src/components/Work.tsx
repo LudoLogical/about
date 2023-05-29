@@ -43,7 +43,14 @@ const tableRows = [
     '',
     ''
   ],
-  ['2021', 'Package Tracking Page', 'Cvent', 'React \u00B7 JavaScript', '', ''],
+  [
+    '2021',
+    'Package Tracking Page',
+    'Onfleet',
+    'React \u00B7 JavaScript',
+    '',
+    ''
+  ],
   [
     '2021',
     'Novis A Cappella Website',

@@ -189,12 +189,12 @@ const Music: React.FC = () => {
               className="w-52 xxs:w-72"
             />
             <h4 className="text-lg">Interactive Player</h4>
-            <button className="btn">
+            <button className="btn px-0">
               <Link
                 href={
                   (beepboxWorks[activeBeepboxWork] as string[])[2] as string
                 }
-                className="flex flex-row gap-x-2"
+                className="flex h-full flex-row items-center gap-x-2 px-4"
               >
                 Beepbox.co
                 <FiExternalLink />
@@ -211,37 +211,37 @@ const Music: React.FC = () => {
             />
             <h4 className="text-lg">Downloads</h4>
             <div className="btn-group btn-group-vertical xxs:btn-group-horizontal">
-              <button className="btn">
+              <button className="btn px-0">
                 <a
                   href={`music/${
                     (activeWorkData as string[])[1] as string
                   }.mp3`}
                   download
-                  className="flex flex-row gap-x-2"
+                  className="flex h-full flex-row items-center gap-x-2 px-4"
                 >
                   .mp3
                   <FiHeadphones />
                 </a>
               </button>
-              <button className="btn">
+              <button className="btn px-0">
                 <a
                   href={`music/${
                     (activeWorkData as string[])[1] as string
                   }.pdf`}
                   download
-                  className="flex flex-row gap-x-2"
+                  className="flex h-full flex-row items-center gap-x-2 px-4"
                 >
                   .pdf
                   <FiFile />
                 </a>
               </button>
-              <button className="btn">
+              <button className="btn px-0">
                 <a
                   href={`music/${
                     (activeWorkData as string[])[1] as string
                   }.mscz`}
                   download
-                  className="flex flex-row gap-x-2"
+                  className="flex h-full flex-row items-center gap-x-2 px-4"
                 >
                   .mscz
                   <FiMusic />
@@ -249,10 +249,10 @@ const Music: React.FC = () => {
               </button>
             </div>
             <h4 className="text-lg">Interactive Player</h4>
-            <button className="btn">
+            <button className="btn px-0">
               <Link
                 href={(activeWorkData as string[])[2] as string}
-                className="flex flex-row gap-x-2"
+                className="flex h-full flex-row items-center gap-x-2 px-4"
               >
                 MuseScore.com
                 <FiExternalLink />

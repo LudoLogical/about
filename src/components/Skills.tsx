@@ -14,6 +14,7 @@ const webSkills = [
   ['TypeScript', 4],
   ['JavaScript (ES6+)', 4],
   ['HTML/CSS', 4],
+  ['Tailwind CSS', 4],
   ['NPM/Yarn/PNPM', 2],
   ['jQuery', 2]
 ];
@@ -23,7 +24,8 @@ const languageSkills = [
   ['Python 3', 3],
   ['C/C++', 2],
   ['SQL', 3],
-  ['Terminal/Bash', 2]
+  ['Terminal/Bash', 2],
+  ['Spanish', 3]
 ];
 
 const editorSkills = [
