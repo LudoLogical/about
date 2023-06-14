@@ -14,13 +14,12 @@ const webSkills = [
   ['TypeScript', 4],
   ['JavaScript (ES6+)', 4],
   ['HTML/CSS', 4],
-  ['Tailwind CSS', 4],
-  ['NPM/Yarn/PNPM', 2],
   ['jQuery', 2]
 ];
 
 const languageSkills = [
   ['Java', 4],
+  ['Node.js', 3],
   ['Python 3', 3],
   ['C/C++', 2],
   ['SQL', 3],
@@ -29,22 +28,29 @@ const languageSkills = [
 ];
 
 const editorSkills = [
-  ['JetBrains IDEs', 4],
-  ['Visual Studio Code', 3],
+  ['IntelliJ IDEA', 4],
+  ['WebStorm', 4],
+  ['PyCharm', 4],
+  ['CLion', 2],
+  ['DataGrip', 2],
+  ['VS Code', 4],
   ['Eclipse', 2]
 ];
 
 const toolSkills = [
   ['Postman', 2],
   ['Insomnia', 2],
-  ['Postgres', 3],
+  ['PostgreSQL', 3],
   ['Vim', 1],
+  ['NPM/PNPM/Yarn', 2],
   ['Git', 4],
   ['GitHub', 4],
-  ['Jira', 2]
+  ['Jira', 2],
+  ['AWS', 1]
 ];
 
 const collaborationSkills = [
+  ['Figma', 2],
   ['Confluence', 3],
   ['Slack', 4],
   ['Discord', 5],
@@ -54,22 +60,22 @@ const collaborationSkills = [
 
 const wideLayout = [
   [
-    ['Web Technologies', webSkills],
-    ['Programming Tools', toolSkills]
+    ['Web Languages', webSkills],
+    ['Other Languages', languageSkills],
+    ['Code Editors', editorSkills]
   ],
   [
-    ['Other Languages', languageSkills],
-    ['Code Editors', editorSkills],
-    ['Collaboration Tools', collaborationSkills]
+    ['Engineering', toolSkills],
+    ['Collaboration', collaborationSkills]
   ]
 ];
 
 const tallLayout = [
-  ['Web Technologies', webSkills],
+  ['Web Languages', webSkills],
   ['Other Languages', languageSkills],
   ['Code Editors', editorSkills],
-  ['Programming Tools', toolSkills],
-  ['Collaboration Tools', collaborationSkills]
+  ['Engineering', toolSkills],
+  ['Collaboration', collaborationSkills]
 ];
 
 const renderSkillsList = (skill: (string | number)[]) => {
