@@ -19,6 +19,7 @@ const webSkills = [
 
 const languageSkills = [
   ['Java', 4],
+  ['Kotlin', 2],
   ['Node.js', 3],
   ['Python 3', 3],
   ['C/C++', 2],
@@ -42,15 +43,16 @@ const toolSkills = [
   ['Insomnia', 2],
   ['PostgreSQL', 3],
   ['Vim', 1],
-  ['NPM/PNPM/Yarn', 2],
+  ['NPM/PNPM/Yarn', 3],
   ['Git', 4],
   ['GitHub', 4],
   ['Jira', 2],
-  ['AWS', 1]
+  ['AWS (Certification Pending)', 2]
 ];
 
 const collaborationSkills = [
   ['Figma', 2],
+  ['Notion', 4],
   ['Confluence', 3],
   ['Slack', 4],
   ['Discord', 5],

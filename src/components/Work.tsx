@@ -4,14 +4,6 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
 const tableRows = [
   [
-    'Current',
-    'Project Owl',
-    '',
-    'Next.js \u00B7 React \u00B7 TypeScript',
-    'https://project-owl.fly.dev/',
-    'https://github.com/LudoLogical/project-owl'
-  ],
-  [
     '2023',
     'Personal Website v3',
     '',
@@ -34,6 +26,14 @@ const tableRows = [
     'Next.js \u00B7 React \u00B7 TypeScript',
     '',
     'https://github.com/LudoLogical/personal-website-v2'
+  ],
+  [
+    'Hiatus',
+    'Project Owl',
+    '',
+    'Next.js \u00B7 React \u00B7 TypeScript',
+    'https://project-owl.fly.dev/',
+    'https://github.com/LudoLogical/project-owl'
   ],
   [
     '2022',

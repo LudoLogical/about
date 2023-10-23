@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
               <span className="whitespace-nowrap">Daniel &quot;Ludo&quot;</span>{' '}
               <span className="whitespace-nowrap">
                 DeAnda.
-                <span className="badge badge-secondary badge-sm align-top xs:badge-md">
+                <span className="badge-secondary badge badge-sm align-top xs:badge-md">
                   Any/All
                 </span>
               </span>
@@ -36,8 +36,9 @@ const Hero: React.FC = () => {
             <p className="max-w-xl py-6">
               I&apos;m a software engineer and a problem solver. I just
               graduated from the University of Texas at Dallas with major,
-              university, and highest Latin honors. Currently, I&apos;m looking
-              for a place in the software-as-a-service space.
+              university, and highest Latin honors. Currently, I&apos;m teaching
+              computer skills to college students and looking for a place in the
+              software-as-a-service space.
             </p>
             <div className="flex flex-col items-start justify-center gap-4 xxs:flex-row xxs:items-center xxs:justify-start">
               <div className="avatar w-12 min-w-[3rem] max-w-none xxs:w-20 lg:hidden">

@@ -30,8 +30,7 @@ const About: React.FC = () => {
         <Link href="https://www.cvent.com/" className="btn-link">
           Cvent
         </Link>{' '}
-        and a side project that I&apos;m currently working on and am excited to
-        share more about soon.
+        and my many, many side projects.
         <br />
         <br />
         My interest in technology goes beyond just web applications, though.
